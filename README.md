@@ -8,3 +8,5 @@ HTML: Structure of the web application.
 CSS: Styling for an interactive interface.
 JavaScript: Core logic for speech recognition and synthesis.
 
+open html file in CHROME BROWSER 
+
