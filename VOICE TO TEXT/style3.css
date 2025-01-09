@@ -1,50 +1,55 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    padding: 20px;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 20px;
+    justify-content: space-between;
 }
 
 .section {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     width: 45%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #333;
-    margin-top: 0;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 select, textarea, button {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding: 10px;
-    border-radius: 4px;
+    font-size: 14px;
     border: 1px solid #ccc;
-    font-size: 16px;
+    border-radius: 5px;
 }
 
 textarea {
-    height: 100px;
     resize: none;
+    height: 100px;
 }
 
 button {
+    cursor: pointer;
     background-color: #007BFF;
     color: white;
+    font-weight: bold;
     border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -52,6 +57,11 @@ button:hover {
 }
 
 button:disabled {
-    background-color: #cccccc;
+    background-color: #ccc;
     cursor: not-allowed;
+}
+
+select {
+    padding: 10px;
+    font-size: 14px;
 }
